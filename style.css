@@ -13,7 +13,7 @@
 
 body {
   background-color: var(--dark-black) !important;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 .nav-item {
