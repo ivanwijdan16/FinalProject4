@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root {
+  --dark-black: #020f13;
+  --white-snow: #f2f6ff;
+  --orange: #fc6b3f;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--dark-black) !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item {
+  margin: 0 0.625rem;
+}
+
+.nav-link {
+  color: var(--white-snow) !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  display: inline-block !important;
+}
+
+.nav-link:hover {
+  color: var(--orange) !important;
+}
+
+.home {
+  padding-top: 10rem;
+}
+
+@media (max-width: 767px) {
+  .home {
+    padding-top: 5rem;
+  }
+}
+
+.btn-cv {
+  background-color: var(--orange) !important;
+  color: var(--white-snow) !important;
+  border-radius: 20px !important;
+}
+
+.btn-cv:hover {
+  background-color: var(--white-snow) !important;
+  color: var(--dark-black) !important;
+}
+
+.fa-github {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.fa-github:hover {
+  color: var(--orange);
+}
+
+.fa-linkedin {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.fa-linkedin:hover {
+  color: var(--orange);
+}
