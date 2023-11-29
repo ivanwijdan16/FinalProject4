@@ -164,3 +164,8 @@ body {
   background-color: var(--white-snow) !important;
   color: var(--dark-black) !important;
 }
+
+.btn-back-to-top:hover {
+  color: var(--orange) !important;
+  border: none;
+}
