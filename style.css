@@ -16,6 +16,11 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 
+/* Navbar */
+.fa-stream:hover {
+  color: var(--orange) !important;
+}
+
 .nav-item {
   margin: 0 0.625rem;
 }
@@ -30,6 +35,8 @@ body {
 .nav-link:hover {
   color: var(--orange) !important;
 }
+
+/* Home */
 
 .home {
   padding-top: 10rem;
@@ -70,7 +77,9 @@ body {
   color: var(--orange);
 }
 
-.card {
+/* About */
+
+.card-about {
   background-color: var(--dark-black) !important;
   border-color: var(--orange) !important;
   color: var(--white-snow) !important;
@@ -81,4 +90,77 @@ body {
 .card-container {
   display: flex;
   justify-content: space-between;
+}
+
+/* Skills */
+
+.card-skills {
+  color: var(--white-snow) !important;
+}
+
+/* Projects */
+
+.carousel-inner {
+  padding: 1em !important;
+}
+.card-projects {
+  margin: 0 0.5em !important;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18) !important;
+  border: none !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: var(--orange) !important;
+  width: 6vh !important;
+  height: 6vh !important;
+  border-radius: 50% !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0 !important;
+    flex: 0 0 33.333333% !important;
+    display: block !important;
+  }
+  .carousel-inner {
+    display: flex !important;
+  }
+}
+.card-projects .img-wrapper {
+  max-width: 100% !important;
+  height: 13em !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.card-projects img {
+  max-height: 100% !important;
+}
+@media (max-width: 767px) {
+  .card-projects .img-wrapper {
+    height: 17em !important;
+  }
+}
+
+.btn-demo {
+  background-color: var(--dark-black) !important;
+  color: var(--white-snow) !important;
+  font-weight: bold !important;
+}
+
+.btn-demo:hover {
+  background-color: var(--orange) !important;
+  color: var(--dark-black) !important;
+}
+
+/* Contact */
+.btn-contact {
+  background-color: var(--orange) !important;
+  color: var(--white-snow) !important;
+}
+
+.btn-contact:hover {
+  background-color: var(--white-snow) !important;
+  color: var(--dark-black) !important;
 }
