@@ -9,6 +9,7 @@
     <!--Import Font Awesome-->
     <script src="https://kit.fontawesome.com/c021263beb.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!--Navbar-->
@@ -45,11 +46,11 @@
       <div class="container-lg pb-5">
         <div class="row d-flex align-items-center justify-content-between mx-auto">
           <div class="col-md-6 mt-5 mt-md-0">
-            <div class="home-img text-center text-md-start">
+            <div class="home-img text-center text-md-start" data-aos="zoom-in" data-aos-duration="2000">
               <img src="Assets/profile-pic.png" alt="" class="rounded-circle w-75 h-75 mx-auto" />
             </div>
           </div>
-          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first" data-aos="fade-up-right" data-aos-duration="2000">
             <div class="mt-2 d-flex flex-column text-center text-md-start">
               <p class="fs-4 fw-bold mx-auto" style="color: var(--orange)">Hello I'm</p>
               <h1 class="fs-1 mb-2 fw-bold mx-auto" style="color: #ffffff">Ivan Wijdan Boediardjo</h1>
@@ -78,14 +79,14 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="text-center">
+            <div class="text-center" data-aos="zoom-out" data-aos-duration="2000">
               <img src="Assets/profile-pic2.png" alt="" class="rounded-4 w-75 h-75 mx-auto mb-5" />
             </div>
           </div>
           <div class="col-md-6 d-flex flex-column justify-content-center">
             <div class="col-md-12 d-flex justify-content-center">
               <div class="card-container">
-                <div class="card card-about text-center px-3 py-4">
+                <div class="card card-about text-center px-3 py-4" data-aos="flip-left" data-aos-duration="2000">
                   <div class="d-flex justify-content-center flex-column my-auto">
                     <div><i class="fa-solid fa-lightbulb fs-3 mb-3"></i></div>
                     <h4 class="fw-bold">Experience</h4>
@@ -93,7 +94,7 @@
                     <p class="card-text mt-2">1+ years Graphics Designer</p>
                   </div>
                 </div>
-                <div class="card card-about text-center px-3 py-4">
+                <div class="card card-about text-center px-3 py-4" data-aos="flip-right" data-aos-duration="2000">
                   <div class="d-flex justify-content-center flex-column my-auto">
                     <div><i class="fa-solid fa-user-graduate fs-3 mb-3"></i></div>
                     <h4 class="fw-bold">Education</h4>
@@ -102,7 +103,7 @@
                 </div>
               </div>
             </div>
-            <div class="about-text mt-4">
+            <div class="about-text mt-4" data-aos="fade-up" data-aos-duration="2000">
               <p style="text-align: justify; color: var(--white-snow)">
                 Informatics Engineering students who are passionate about website development. Currently studying at the Telkom Institute of Technology, Purwokerto. Have previous work experience as a Graphic Designer - Internship. Have a career interest in website development or
                 related fields in the information technology industry. Ready to accept new challenges and exciting career opportunities.
@@ -117,7 +118,7 @@
     <section class="skills bg-white py-5 px-2" id="skills" style="background-color: var(--dark-black) !important">
       <div class="container-lg py-5">
         <div class="row justify-content-center">
-          <div class="col-md-6 my-auto d-flex flex-column align-items-start justify-content-center">
+          <div class="col-md-6 my-auto d-flex flex-column align-items-start justify-content-center" data-aos="fade-right" data-aos-duration="2000">
             <h2 class="fw-bold mb-5" style="color: var(--white-snow)">My Skills</h2>
             <h2 style="color: var(--white-snow)">Why Hire Me For Your</h2>
             <h2 class="mb-4" style="color: var(--orange)">Next Project?</h2>
@@ -126,10 +127,10 @@
           <div class="col-md-3">
             <div class="text-center py-4 card-skills">
               <div class="d-flex align-items-start flex-column my-auto">
-                <div><i class="fas fa-code fs-3 mb-4" style="color: var(--orange)"></i></div>
-                <p class="fw-bold my-auto mb-2" style="font-size: 18px">Frontend Development</p>
-                <p class="card-text text-start">Turning graphic designs into interactive and responsive user interfaces</p>
-                <div>
+                <div data-aos="zoom-in" data-aos-duration="2000"><i class="fas fa-code fs-3 mb-4" style="color: var(--orange)"></i></div>
+                <p class="fw-bold my-auto mb-2" style="font-size: 18px" data-aos="fade-down" data-aos-duration="3000">Frontend Development</p>
+                <p class="card-text text-start" data-aos="zoom-out" data-aos-duration="3000">Turning graphic designs into interactive and responsive user interfaces</p>
+                <div data-aos="fade-up" data-aos-duration="3000">
                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
                     <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path>
                     <path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path>
@@ -169,10 +170,10 @@
             </div>
             <div class="text-center py-4 card-skills">
               <div class="d-flex align-items-start flex-column my-auto">
-                <div><i class="fas fa-palette fs-3 mb-4" style="color: var(--orange)"></i></div>
-                <p class="fw-bold my-auto mb-2" style="font-size: 20px">Graphics Designer</p>
-                <p class="card-text text-start">Creating attractive graphic designs for various media.</p>
-                <div>
+                <div data-aos="zoom-in" data-aos-duration="2000"><i class="fas fa-palette fs-3 mb-4" style="color: var(--orange)"></i></div>
+                <p class="fw-bold my-auto mb-2" style="font-size: 20px" data-aos="fade-down" data-aos-duration="3000">Graphics Designer</p>
+                <p class="card-text text-start" data-aos="zoom-out" data-aos-duration="3000">Creating attractive graphic designs for various media.</p>
+                <div data-aos="fade-up" data-aos-duration="3000">
                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
                     <path fill="#03A9F4" d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"></path>
                     <path fill="#020F16" d="M20.016,19.174h-2.002v4.434h1.973c0.547,0,0.97-0.179,1.27-0.537s0.449-0.879,0.449-1.563c0-0.71-0.153-1.274-0.459-1.694S20.53,19.181,20.016,19.174z"></path>
@@ -314,10 +315,10 @@
           <div class="col-md-3 d-flex align-items-center justify-content-center">
             <div class="py-4 card-skills">
               <div class="d-flex align-items-start flex-column my-auto">
-                <div><i class="fa-solid fa-desktop fs-3 mb-4" style="color: var(--orange)"></i></div>
-                <p class="fw-bold my-auto mb-2" style="font-size: 20px">UI/UX Designer</p>
-                <p class="card-text">Designing effective and aesthetic user interfaces</p>
-                <div>
+                <div data-aos="zoom-in" data-aos-duration="2000"><i class="fa-solid fa-desktop fs-3 mb-4" style="color: var(--orange)"></i></div>
+                <p data-aos="fade-down" data-aos-duration="3000" class="fw-bold my-auto mb-2" style="font-size: 20px">UI/UX Designer</p>
+                <p class="card-text" data-aos="zoom-out" data-aos-duration="3000">Designing effective and aesthetic user interfaces</p>
+                <div data-aos="fade-up" data-aos-duration="3000">
                   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
                     <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path>
                     <path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path>
@@ -344,7 +345,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="zoom-in-up" data-aos-duration="3000">
           <div id="carouselExampleControls" class="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -424,26 +425,26 @@
         <div class="row justify-content-center text-center my-3">
           <div class="col-sm-3">
             <div class="fact-item">
-              <div class="icon fs-4 mb-3">
+              <div class="icon fs-4 mb-3" data-aos="fade-down" data-aos-duration="3000">
                 <i class="fas fa-envelope" style="color: var(--orange)"></i>
               </div>
-              <p style="color: var(--white-snow)">ivanok152@gmail.com</p>
+              <p style="color: var(--white-snow)" data-aos="fade-up" data-aos-duration="3000">ivanok152@gmail.com</p>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="fact-item">
-              <div class="icon fs-4 mb-3">
+              <div class="icon fs-4 mb-3" data-aos="fade-down" data-aos-duration="3000">
                 <i class="fas fa-phone" style="color: var(--orange)"></i>
               </div>
-              <p style="color: var(--white-snow)">+6281312755120</p>
+              <p style="color: var(--white-snow)" data-aos="fade-up" data-aos-duration="3000">+6281312755120</p>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="fact-item">
-              <div class="icon fs-4 mb-3" style="color: var(--orange)">
+              <div class="icon fs-4 mb-3" style="color: var(--orange)" data-aos="fade-down" data-aos-duration="3000">
                 <i class="fas fa-map-marker-alt"></i>
               </div>
-              <p style="color: var(--white-snow)">Mojokerto, Indonesia</p>
+              <p style="color: var(--white-snow)" data-aos="fade-up" data-aos-duration="3000">Mojokerto, Indonesia</p>
             </div>
           </div>
         </div>
@@ -452,20 +453,20 @@
             <div class="contact-form">
               <form>
                 <div class="row">
-                  <div class="col-lg-6 mb-4">
+                  <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-duration="3000">
                     <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm" />
                   </div>
-                  <div class="col-lg-6 mb-4">
+                  <div class="col-lg-6 mb-4" data-aos="fade-left" data-aos-duration="3000">
                     <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm" />
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-lg-12 mb-4">
+                  <div class="col-lg-12 mb-4" data-aos="fade-up-right" data-aos-duration="3000">
                     <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm" />
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-lg-12 mb-4">
+                  <div class="col-lg-12 mb-4" data-aos="fade-up-left" data-aos-duration="3000">
                     <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
                   </div>
                 </div>
@@ -492,9 +493,9 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="d-flex justify-content-center pb-2">
-              <a class="btn" href="https://twitter.com/wrldJean"><i class="fab fa-twitter fa-lg me-3" style="color: var(--dark-black)"></i></a>
-              <a class="btn" href="https://www.facebook.com/ivanwijdan.boediardjo?mibextid=ZbWKwL"><i class="fab fa-facebook-f fa-lg me-3" style="color: var(--dark-black)"></i></a>
-              <a class="btn" href="https://www.instagram.com/ivanwijdan/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><i class="fab fa-square-instagram fa-lg" style="color: var(--dark-black)"></i></a>
+              <a class="btn" href="https://twitter.com/wrldJean"><i class="fab fa-twitter fa-lg me-3" style="color: var(--white-snow)"></i></a>
+              <a class="btn" href="https://www.facebook.com/ivanwijdan.boediardjo?mibextid=ZbWKwL"><i class="fab fa-facebook-f fa-lg me-3" style="color: var(--white-snow)"></i></a>
+              <a class="btn" href="https://www.instagram.com/ivanwijdan/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D"><i class="fab fa-instagram fa-lg" style="color: var(--white-snow)"></i></a>
             </div>
             <p class="text-center fw-bold" style="color: var(--white-snow)">&copy; 2023 Ivan</p>
           </div>
@@ -507,5 +508,9 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-..." crossorigin="anonymous" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
