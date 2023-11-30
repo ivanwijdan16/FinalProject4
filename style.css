@@ -79,6 +79,10 @@ body {
 
 /* About */
 
+#about {
+  overflow-x: hidden !important;
+}
+
 .card-about {
   background-color: var(--dark-black) !important;
   border-color: var(--orange) !important;
@@ -96,6 +100,10 @@ body {
 
 .card-skills {
   color: var(--white-snow) !important;
+}
+
+#skills {
+  overflow-x: hidden !important;
 }
 
 /* Projects */
@@ -155,6 +163,10 @@ body {
 }
 
 /* Contact */
+#contact {
+  overflow-x: hidden !important;
+}
+
 .btn-contact {
   background-color: var(--orange) !important;
   color: var(--white-snow) !important;
